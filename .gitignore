@@ -21,3 +21,25 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# maven build files
+target/
+dependency-reduced-pom.xml
+
+# Eclipse project files
+.classpath
+.project
+.settings
+.externalToolBuilders
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Intellij plugin files
+atlassian-ide-plugin.xml
+
+# MAC_OSX
+*.DS_Store
